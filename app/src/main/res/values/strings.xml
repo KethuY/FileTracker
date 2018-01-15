@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">SZ File Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions."</string>
+    <string name="is_first_time_login">IS_FIRST_TIME_LOGIN</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_user_id">Enter user id</string>
+    <string name="sz_file_manager">SZ File Manager</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="title_activity_homew">HomewActivity</string>
+    <string name="title_user">User</string>
+    <string name="title_node">Node</string>
+    <string name="title_file">File</string>
+    <string name="title_group">Target Group</string>
+    <string-array name="traget_group">
+        <item>Education</item>
+        <item>Social Welfare</item>
+        <item>Revenue</item>
+        <item>Panchayat Raj</item>
+        <item>Roads and Buildings</item>
+        <item>Health</item>
+        <item>Weaker Sections</item>
+    </string-array>
+
+    <string-array name="node">
+        <item>Node 1</item>
+        <item>Node 2</item>
+        <item>Node 3</item>
+        <item>Node 4</item>
+        <item>Node 5</item>
+    </string-array>
+    <string-array name="node_type">
+        <item>Select node type</item>
+        <item>Node Type 1</item>
+        <item>Node Type 2</item>
+        <item>Node Type 3</item>
+        <item>Node Type 4</item>
+        <item>Node Type 5</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="user_designation">
+        <item>Select designation</item>
+        <item>Software developer</item>
+        <item>Ass.Software developer</item>
+        <item>Software engineer</item>
+        <item>Ass. Software engineer</item>
+        <item>Senior Software enginer</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="user_status">
+        <item>Select status</item>
+        <item>Active</item>
+        <item>Suspended</item>
+        <item>Deleted</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="office">
+        <item>Select office</item>
+        <item>Office1</item>
+        <item>Office2</item>
+        <item>Office3</item>
+        <item>Office4</item>
+        <item>Office5</item>
+        <item>Office6</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string-array name="desk">
+        <item>Select Desk</item>
+        <item>Desk1</item>
+        <item>Desk2</item>
+        <item>Desk3</item>
+        <item>Desk4</item>
+        <item>Desk5</item>
+        <item>Desk6</item>
+
+    </string-array>
+
+    <string-array name="parent_node">
+        <item>Office1</item>
+        <item>Office2</item>
+        <item>Office3</item>
+        <item>Office4</item>
+        <item>Office5</item>
+        <item>Office6</item>
+
+    </string-array>
+
+    <string-array name="user_type">
+        <item>Select type</item>
+        <item>Admin</item>
+        <item>User</item>
+        <item>Incharge</item>
+        <item>Other</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_details">Enter details</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_aadhar_number">Enter aadhar number</string>
+    <string name="enter_type">Enter type</string>
+    <string name="enter_office">Enter office</string>
+    <string name="enter_designation">Enter designation</string>
+    <string name="enter_status">Enter status</string>
+    <string name="modify">Modify</string>
+</resources>
