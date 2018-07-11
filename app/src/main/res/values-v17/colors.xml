@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_coffee">#A1887F</color>
+    <color name="green">#8BC34A</color>
+    <color name="red">#F44336</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="complete_grey">#78909C</color>
+</resources>

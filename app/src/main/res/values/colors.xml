@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimary">#65BEE7</color>
+    <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#6064FF</color>
+    <color name="button_border">#81D4FA</color>
+
+    <color name="colorConfirmedStatus">#c9bb00</color>
+    <color name="colorCancelledStatus">#ff5d51</color>
+    <color name="colorCompletedStatus">#80ff7c</color>
+    <color name="colorPendingStatus">#7085ff</color>
+    <color name="colorAppBlue">#0d3e69</color>
+    <color name="colorAppWhite">#f4f4f4</color>
+    <color name="appThemeBgColorDark">#ededed</color>
+    <color name="appThemeBgColorLight">@color/colorPrimaryDark</color>
+    <color name="appThemeTextColorLight">@color/colorPrimaryDark</color>
+    <color name="appThemeTextColorDark">#ededed</color>
+    <color name="appThemeTextHintColor">#afafaf</color>
+    <color name="appThemeTextHighLightColor">#4d4d4d</color>
+    <color name="appThemeTextErrorColor">#f4f4f4</color>
+    <color name="appThemeYellow">#f8f206</color>
+    <color name="transYellow">#FFFF8D</color>
+    <color name="background_color">#45999999</color>
+    <color name="ratingNormal">#bbbbbb</color>
+    <color name="ratingSelected">#3daad1</color>
+    <color name="header_coffee">#A1887F</color>
+    <color name="green">#8BC34A</color>
+    <color name="red">#F44336</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="complete_grey">#78909C</color>
+    <color name="background_1">#F0FFFF</color>
+
 </resources>

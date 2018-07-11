@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kethu.filetracker">
+    package="com.chs.secure_transport">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -25,32 +33,64 @@
         </activity>
         <activity
             android:name=".login.LoginActivity"
-            android:theme="@style/FullScreen" />
+            android:windowSoftInputMode="adjustPan"
+            android:label="Skills Zone" />
+
         <activity
-            android:name=".base.BaseActivity"
-            android:label="@string/title_activity_base"
+            android:name=".route_map.RouteMapActivity"
+            android:label="Secure Transport"
             android:theme="@style/AppTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <activity android:name=".student.StudentsTransportActivity" />
+
+        <activity android:name=".changepwd.ChangePasswordActivity" />
         <activity
-            android:name=".home.HomeActivity"
-            android:label="@string/app_name" />
+            android:name=".route.RoutesActivity"
+            android:label="Routes" />
+
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".fcm.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".fcm.LocationUpdateService" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <activity
             android:name=".profile.ProfileActivity"
-            android:parentActivityName=".home.HomeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".status_designation.StatusDesignationActivity"
-            android:parentActivityName=".home.HomeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".node_type.NodeTypeActivity"
-            android:parentActivityName=".home.HomeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".office.OfficeActivity"
-            android:parentActivityName=".home.HomeActivity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".file_flow.FileFlowActivity" />
-        <activity android:name=".search.SearchActivity" android:screenOrientation="portrait" android:parentActivityName=".home.HomeActivity"></activity>
+            android:label="Profile" />
+
+        <activity android:name=".menu.MenuActivity" />
+        <activity android:name=".pickup.StudentPickUpActivity" />
+        <activity android:name=".drop.StudentDropActivity" />
+        <activity android:name=".route_point.AddRoutePointsActivity"/>
+        <activity android:name=".pickup.PickupActivity" />
     </application>
 
 </manifest>

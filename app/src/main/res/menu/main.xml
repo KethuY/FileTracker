@@ -3,31 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/designation_menu"
-        android:title="User Designation" />
-    <item
-        android:id="@+id/status_menu"
-        android:title="User Status" />
+        android:id="@+id/home_menu"
+        android:title="Home" />
+
 
     <item
-        android:id="@+id/office"
-        android:title="Office"
-        android:visible="false"/>
+        android:id="@+id/signout_menu"
+        android:title="Signout" />
+
 
     <item
-        android:id="@+id/node_type"
-        android:title="Node Type"
-        android:visible="false"/>
+        android:id="@+id/profile_menu"
+        android:title="Profile" />
 
     <item
-        android:id="@+id/file_flow"
-        android:title="File Flow"
-        android:visible="false"/>
+        android:id="@+id/change_pwd_menu"
+        android:title="Change Password" />
 
-    <item
-        android:id="@+id/add"
-        android:icon="@drawable/plus_icon"
-        android:title="add"
-        android:visible="false"
-         />
 </menu>

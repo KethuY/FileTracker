@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">SZ File Manager</string>
+    <string name="app_name">Secure Transport</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_splash">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -16,9 +16,9 @@
     <string name="is_first_time_login">IS_FIRST_TIME_LOGIN</string>
     <string name="enter_password">Enter password</string>
     <string name="forgot_password">Forgot password?</string>
-    <string name="enter_user_id">Enter user id</string>
+    <string name="enter_user_id">Enter username</string>
     <string name="sz_file_manager">SZ File Manager</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Profile</string>
     <string name="title_activity_base">BaseActivity</string>
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
@@ -44,49 +44,37 @@
         <item>Node 4</item>
         <item>Node 5</item>
     </string-array>
-    <string-array name="node_type">
-        <item>Select node type</item>
-        <item>Node Type 1</item>
-        <item>Node Type 2</item>
-        <item>Node Type 3</item>
-        <item>Node Type 4</item>
-        <item>Node Type 5</item>
-        <item>Other</item>
+    <string-array name="terms">
+        <item>Term1</item>
+        <item>Term2</item>
     </string-array>
     <string-array name="user_designation">
-        <item>Select designation</item>
         <item>Software developer</item>
         <item>Ass.Software developer</item>
         <item>Software engineer</item>
         <item>Ass. Software engineer</item>
         <item>Senior Software enginer</item>
-        <item>Other</item>
     </string-array>
 
     <string-array name="user_status">
-        <item>Select status</item>
         <item>Active</item>
         <item>Suspended</item>
         <item>Deleted</item>
-        <item>Other</item>
 
     </string-array>
 
     <string-array name="office">
-        <item>Select office</item>
         <item>Office1</item>
         <item>Office2</item>
         <item>Office3</item>
         <item>Office4</item>
         <item>Office5</item>
         <item>Office6</item>
-        <item>Other</item>
 
     </string-array>
 
 
     <string-array name="desk">
-        <item>Select Desk</item>
         <item>Desk1</item>
         <item>Desk2</item>
         <item>Desk3</item>
@@ -107,11 +95,9 @@
     </string-array>
 
     <string-array name="user_type">
-        <item>Select type</item>
         <item>Admin</item>
         <item>User</item>
         <item>Incharge</item>
-        <item>Other</item>
 
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
@@ -126,4 +112,35 @@
     <string name="enter_designation">Enter designation</string>
     <string name="enter_status">Enter status</string>
     <string name="modify">Modify</string>
+    <string name="is_add">isAdd</string>
+    <string name="current_page">currentPage</string>
+    <string name="signout">Signout</string>
+    <string name="others">Others</string>
+    <string name="holidays_amp_events"><![CDATA[Holidays & Events]]></string>
+    <string name="examinations">Examinations</string>
+    <string name="attendance">Attendance</string>
+    <string name="fee">Fee</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_notifications">Notifications</string>
+    <string name="select_all">Select all</string>
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">ADD CALENDAR EVENT</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_driver_map">Secure Transport</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
 </resources>

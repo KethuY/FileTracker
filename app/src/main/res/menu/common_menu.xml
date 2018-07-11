@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/start_menu"
+        android:title="START"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/stop_menu"
+        android:title="STOP"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/route_map_menu"
+        android:icon="@drawable/routes"
+        android:title="Route Map"
+        app:showAsAction="always"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/save_menu"
+        android:title="Save"
+        app:showAsAction="always"
+        android:visible="false" />
+
+
+</menu>

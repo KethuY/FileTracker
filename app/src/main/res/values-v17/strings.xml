@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signout">Signout</string>
+    <string name="others">Others</string>
+    <string name="holidays_amp_events"><![CDATA[Holidays & Events]]></string>
+    <string name="examinations">Examinations</string>
+    <string name="attendance">Attendance</string>
+    <string name="search_notifications">Notifications</string>
+    <string name="select_all">Select all</string>
+
+</resources>
